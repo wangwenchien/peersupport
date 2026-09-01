@@ -601,7 +601,7 @@ section {
   object-fit: cover;
 
   border-radius:
-    28px 28px 28px 7px;
+    32px;
 }
 
 .peer h3 {
