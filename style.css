@@ -830,6 +830,102 @@ footer p:last-child {
   opacity: 0.7;
 }
 
+/* ==========================================
+   HERO REASSURANCE
+========================================== */
+
+.hero-reassurance {
+  margin: -8px 0 24px;
+
+  color: #168087;
+
+  font-family:
+    "Segoe Print",
+    "Bradley Hand",
+    cursive;
+
+  font-size: 15px;
+
+  font-weight: 500;
+}
+
+
+/* ==========================================
+   REACH OUT PROCESS
+========================================== */
+
+.reachout-process {
+  padding: 80px 8%;
+
+  background: #fffdf9;
+}
+
+.reachout-steps {
+  max-width: 1050px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 24px;
+}
+
+.reachout-steps article {
+  padding: 28px 26px;
+
+  background: #eef8f5;
+
+  border-radius:
+    28px 28px 28px 8px;
+}
+
+.reachout-steps article:nth-child(2) {
+  background: #fff6e9;
+
+  transform: translateY(12px);
+}
+
+.reachout-steps article:nth-child(3) {
+  background: #f2f8f7;
+}
+
+.step-number {
+  display: block;
+
+  margin-bottom: 14px;
+
+  color: #d0a84d;
+
+  font-family:
+    Georgia,
+    serif;
+
+  font-size: 25px;
+}
+
+.reachout-steps h3 {
+  margin-bottom: 7px;
+
+  color: #28616a;
+
+  font-family:
+    "Segoe Print",
+    "Bradley Hand",
+    cursive;
+
+  font-size: 18px;
+
+  font-weight: 500;
+}
+
+.reachout-steps p {
+  color: #68777d;
+
+  font-size: 14px;
+
+  line-height: 1.55;
+}
 
 /* ==========================================
    TABLET
@@ -906,6 +1002,15 @@ footer p:last-child {
 
   .resource-list {
     grid-template-columns: 1fr;
+  }
+
+  .reachout-steps {
+  grid-template-columns: 1fr;
+  max-width: 700px;
+  }
+
+  .reachout-steps article:nth-child(2) {
+  transform: none;
   }
 
   .contact {
