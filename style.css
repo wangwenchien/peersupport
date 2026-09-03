@@ -19,11 +19,16 @@ html {
 }
 
 body {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Arial,
+    Helvetica,
+    sans-serif;
 
   color: #324a55;
   background: #fffdf9;
-
   line-height: 1.65;
 }
 
@@ -42,7 +47,6 @@ section {
 
 .site-header {
   width: 100%;
-
   padding: 6px 6% 12px;
 
   background: #ffffff;
@@ -61,7 +65,6 @@ section {
 
 .header-logo a {
   display: block;
-
   line-height: 0;
 }
 
@@ -76,7 +79,6 @@ section {
 
 .header-links {
   display: flex;
-
   align-items: center;
   justify-content: center;
 
@@ -87,7 +89,6 @@ section {
 
 .header-links nav {
   display: flex;
-
   align-items: center;
 
   gap: 34px;
@@ -99,7 +100,7 @@ section {
   text-decoration: none;
 
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 650;
 
   white-space: nowrap;
 
@@ -145,7 +146,6 @@ section {
 
 .primary-button {
   display: inline-flex;
-
   align-items: center;
 
   gap: 10px;
@@ -230,7 +230,6 @@ section {
 
 .hero-friendly {
   position: relative;
-
   overflow: hidden;
 }
 
@@ -247,14 +246,18 @@ section {
 
   color: #16727c;
 
-  font-family: "Caveat", cursive;
+  font-family:
+    "Segoe Print",
+    "Bradley Hand",
+    "Comic Sans MS",
+    cursive;
 
   font-size:
-    clamp(50px, 5vw, 74px);
+    clamp(40px, 4vw, 62px);
 
-  font-weight: 600;
+  font-weight: 500;
 
-  line-height: 0.98;
+  line-height: 1.08;
 }
 
 .hero-text {
@@ -284,7 +287,6 @@ section {
   padding: 12px 18px;
 
   display: flex;
-
   align-items: center;
 
   gap: 10px;
@@ -306,17 +308,18 @@ section {
 .hero-note p {
   color: #477078;
 
-  font-family: "Caveat", cursive;
+  font-family:
+    "Segoe Print",
+    "Bradley Hand",
+    cursive;
 
-  font-size: 21px;
-  font-weight: 600;
+  font-size: 14px;
 
-  line-height: 1.1;
+  line-height: 1.4;
 }
 
 .hero-visual {
   display: flex;
-
   justify-content: center;
   align-items: center;
 }
@@ -389,7 +392,6 @@ section {
 
 .value {
   display: flex;
-
   align-items: center;
 
   gap: 18px;
@@ -464,7 +466,7 @@ section {
 
   line-height: 1.2;
 
-  letter-spacing: -0.6px;
+  letter-spacing: -0.5px;
 }
 
 .section-intro {
@@ -524,7 +526,7 @@ section {
 .gentle-note span {
   display: block;
 
-  margin-bottom: 7px;
+  margin-bottom: 10px;
 
   color: #d7ab43;
 
@@ -534,12 +536,7 @@ section {
 .gentle-note p {
   color: #577078;
 
-  font-family: "Caveat", cursive;
-
-  font-size: 21px;
-  font-weight: 500;
-
-  line-height: 1.2;
+  font-size: 15px;
 }
 
 .professional-note {
@@ -625,7 +622,7 @@ section {
 .bubble-heart {
   display: block;
 
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 
   color: #d0a84d;
 
@@ -637,12 +634,11 @@ section {
 
   color: #27636c;
 
-  font-family: "Caveat", cursive;
+  font-size: 18px;
 
-  font-size: 26px;
-  font-weight: 600;
+  font-weight: 700;
 
-  line-height: 1.1;
+  line-height: 1.4;
 }
 
 .help-bubble p {
@@ -688,7 +684,7 @@ section {
 
   line-height: 1.2;
 
-  letter-spacing: -0.6px;
+  letter-spacing: -0.5px;
 }
 
 .peer-intro-note {
@@ -766,6 +762,7 @@ section {
   color: #516a72;
 
   font-size: 13.5px;
+
   font-weight: 600;
 
   line-height: 1.45;
@@ -808,18 +805,20 @@ section {
 
   font-size: 14px;
 
-  margin-bottom: 2px;
+  margin-bottom: 3px;
 }
 
 .human-message strong {
   color: #176f78;
 
-  font-family: "Caveat", cursive;
+  font-family:
+    "Segoe Print",
+    "Bradley Hand",
+    cursive;
 
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 20px;
 
-  line-height: 1.1;
+  font-weight: 500;
 }
 
 
@@ -857,7 +856,6 @@ section {
   min-width: 50px;
 
   display: flex;
-
   align-items: center;
   justify-content: center;
 
@@ -897,6 +895,8 @@ section {
 }
 
 .reachout-steps {
+  position: relative;
+
   max-width: 1050px;
 
   display: grid;
@@ -908,6 +908,8 @@ section {
 }
 
 .reachout-steps article {
+  position: relative;
+
   padding: 28px 26px;
 
   background: #eef8f5;
@@ -933,7 +935,9 @@ section {
 
   color: #d0a84d;
 
-  font-family: Georgia, serif;
+  font-family:
+    Georgia,
+    serif;
 
   font-size: 25px;
 }
@@ -944,6 +948,7 @@ section {
   color: #28616a;
 
   font-size: 17px;
+
   font-weight: 700;
 }
 
@@ -990,14 +995,15 @@ section {
 
   color: #176f78;
 
-  font-family: "Caveat", cursive;
+  font-family:
+    "Segoe Print",
+    "Bradley Hand",
+    cursive;
 
   font-size:
-    clamp(44px, 4vw, 58px);
+    clamp(32px, 3vw, 45px);
 
-  font-weight: 600;
-
-  line-height: 1;
+  font-weight: 500;
 }
 
 .contact > div:first-child > p:not(.eyebrow) {
@@ -1022,6 +1028,7 @@ section {
   color: #405963;
 
   font-size: 15px;
+
   font-weight: 700;
 }
 
@@ -1221,7 +1228,7 @@ footer p:last-child {
   }
 
   .hero h1 {
-    font-size: 52px;
+    font-size: 38px;
   }
 
   .hero-text {
@@ -1232,10 +1239,6 @@ footer p:last-child {
     width: 100%;
 
     padding: 11px 15px;
-  }
-
-  .hero-note p {
-    font-size: 20px;
   }
 
   .hero-soft-shape {
@@ -1280,10 +1283,6 @@ footer p:last-child {
     padding: 23px 21px;
   }
 
-  .help-bubble h3 {
-    font-size: 25px;
-  }
-
   .peer-heading {
     margin-bottom: 30px;
   }
@@ -1319,7 +1318,7 @@ footer p:last-child {
   }
 
   .human-message strong {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .reachout-process {
@@ -1328,10 +1327,6 @@ footer p:last-child {
 
   .contact {
     padding: 65px 7%;
-  }
-
-  .contact h2 {
-    font-size: 46px;
   }
 }
 
@@ -1351,7 +1346,7 @@ footer p:last-child {
   }
 
   .hero h1 {
-    font-size: 46px;
+    font-size: 34px;
   }
 
   .value {
