@@ -3,7 +3,6 @@
    WARM / HUMAN PEER SUPPORT DESIGN
 ========================================== */
 
-
 /* ==========================================
    RESET
 ========================================== */
@@ -895,8 +894,6 @@ section {
 }
 
 .reachout-steps {
-  position: relative;
-
   max-width: 1050px;
 
   display: grid;
@@ -908,8 +905,6 @@ section {
 }
 
 .reachout-steps article {
-  position: relative;
-
   padding: 28px 26px;
 
   background: #eef8f5;
@@ -1028,7 +1023,6 @@ section {
   color: #405963;
 
   font-size: 15px;
-
   font-weight: 700;
 }
 
