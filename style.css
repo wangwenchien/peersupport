@@ -427,14 +427,8 @@ section {
 
   color: #176f78;
 
-  font-family:
-    "Segoe Print",
-    "Bradley Hand",
-    cursive;
-
-  font-size: 18px;
-
-  font-weight: 500;
+  font-size: 17px;
+  font-weight: 700;
 }
 
 .value p {
@@ -465,17 +459,14 @@ section {
 
   color: #176f78;
 
-  font-family:
-    "Segoe Print",
-    "Bradley Hand",
-    cursive;
-
   font-size:
     clamp(30px, 3vw, 42px);
 
-  font-weight: 500;
+  font-weight: 700;
 
   line-height: 1.2;
+
+  letter-spacing: -0.5px;
 }
 
 .section-intro {
@@ -643,14 +634,9 @@ section {
 
   color: #27636c;
 
-  font-family:
-    "Segoe Print",
-    "Bradley Hand",
-    cursive;
-
   font-size: 18px;
 
-  font-weight: 500;
+  font-weight: 700;
 
   line-height: 1.4;
 }
@@ -691,17 +677,14 @@ section {
 .peer-heading h2 {
   color: #176f78;
 
-  font-family:
-    "Segoe Print",
-    "Bradley Hand",
-    cursive;
-
   font-size:
     clamp(32px, 3vw, 44px);
 
-  font-weight: 500;
+  font-weight: 700;
 
   line-height: 1.2;
+
+  letter-spacing: -0.5px;
 }
 
 .peer-intro-note {
@@ -744,7 +727,7 @@ section {
     repeat(3, minmax(0, 1fr));
 
   gap:
-    38px
+    40px
     28px;
 }
 
@@ -764,21 +747,25 @@ section {
 
   border-radius:
     30px 30px 30px 9px;
+
+  box-shadow:
+    0 8px 22px rgba(40, 75, 80, 0.05);
 }
 
 .peer:nth-child(3n + 2) {
-  transform: translateY(18px);
+  transform: translateY(16px);
 }
 
 .peer h3 {
-  margin: 12px 5px 0;
+  margin: 11px 6px 0;
 
-  color: #35636c;
+  color: #516a72;
 
-  font-size: 14px;
+  font-size: 13.5px;
+
   font-weight: 600;
 
-  line-height: 1.4;
+  line-height: 1.45;
 }
 
 
@@ -885,6 +872,9 @@ section {
   margin-bottom: 6px;
 
   color: #2f515b;
+
+  font-size: 17px;
+  font-weight: 700;
 }
 
 .resource-list p {
@@ -905,6 +895,8 @@ section {
 }
 
 .reachout-steps {
+  position: relative;
+
   max-width: 1050px;
 
   display: grid;
@@ -916,6 +908,8 @@ section {
 }
 
 .reachout-steps article {
+  position: relative;
+
   padding: 28px 26px;
 
   background: #eef8f5;
@@ -953,14 +947,9 @@ section {
 
   color: #28616a;
 
-  font-family:
-    "Segoe Print",
-    "Bradley Hand",
-    cursive;
+  font-size: 17px;
 
-  font-size: 18px;
-
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .reachout-steps p {
@@ -1039,6 +1028,8 @@ section {
   color: #405963;
 
   font-size: 15px;
+
+  font-weight: 700;
 }
 
 .emergency p {
@@ -1284,12 +1275,20 @@ footer p:last-child {
     padding: 65px 7%;
   }
 
+  .section-heading h2 {
+    font-size: 30px;
+  }
+
   .help-bubble {
     padding: 23px 21px;
   }
 
   .peer-heading {
     margin-bottom: 30px;
+  }
+
+  .peer-heading h2 {
+    font-size: 31px;
   }
 
   .peer-intro-note {
@@ -1302,6 +1301,10 @@ footer p:last-child {
 
   .peer img {
     height: 270px;
+  }
+
+  .peer h3 {
+    font-size: 13.5px;
   }
 
   .human-message {
