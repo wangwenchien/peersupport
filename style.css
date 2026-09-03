@@ -55,19 +55,12 @@ section {
     1px solid rgba(41, 83, 91, 0.1);
 }
 
-
-/* ==========================================
-   HEADER LOGO
-========================================== */
-
 .header-logo {
   width: 100%;
 
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin: 0;
 }
 
 .header-logo a {
@@ -82,14 +75,7 @@ section {
   max-width: 82vw;
 
   height: auto;
-
-  margin: 0;
 }
-
-
-/* ==========================================
-   HEADER LINKS
-========================================== */
 
 .header-links {
   display: flex;
@@ -155,7 +141,7 @@ section {
 
 
 /* ==========================================
-   GENERAL BUTTON
+   BUTTONS
 ========================================== */
 
 .primary-button {
@@ -197,7 +183,7 @@ section {
 
 
 /* ==========================================
-   EYEBROWS
+   SMALL SECTION LABELS
 ========================================== */
 
 .eyebrow {
@@ -242,8 +228,17 @@ section {
     #fffdf9;
 }
 
+.hero-friendly {
+  position: relative;
+  overflow: hidden;
+}
+
 .hero-copy {
+  position: relative;
+
   max-width: 700px;
+
+  z-index: 2;
 }
 
 .hero h1 {
@@ -283,46 +278,8 @@ section {
   font-size: 15px;
 }
 
-.hero-visual {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-visual img {
-  width: 100%;
-  max-width: 470px;
-
-  height: auto;
-
-  display: block;
-
-  border-radius: 32px;
-
-  box-shadow:
-    0 18px 45px rgba(38, 72, 78, 0.08);
-}
-
-
-/* ==========================================
-   FRIENDLIER HERO
-========================================== */
-
-.hero-friendly {
-  position: relative;
-
-  overflow: hidden;
-}
-
-.hero-friendly .hero-copy {
-  position: relative;
-
-  z-index: 2;
-}
-
 .hero-note {
   width: fit-content;
-
   max-width: 520px;
 
   margin: 6px 0 24px;
@@ -361,6 +318,12 @@ section {
   line-height: 1.4;
 }
 
+.hero-visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .friendly-hero-image {
   position: relative;
 
@@ -386,6 +349,13 @@ section {
 
 .friendly-hero-image img {
   position: relative;
+
+  width: 100%;
+  max-width: 470px;
+
+  height: auto;
+
+  display: block;
 
   z-index: 1;
 
@@ -595,7 +565,7 @@ section {
 
 
 /* ==========================================
-   FRIENDLIER HOW WE CAN HELP
+   HOW WE CAN HELP
 ========================================== */
 
 .help-friendly {
@@ -702,51 +672,6 @@ section {
   background: #fffdf9;
 }
 
-.peer-grid {
-  display: grid;
-
-  grid-template-columns:
-    repeat(3, minmax(0, 1fr));
-
-  gap: 30px 22px;
-}
-
-.peer {
-  background: transparent;
-
-  text-align: left;
-}
-
-.peer img {
-  width: 100%;
-  height: 230px;
-
-  display: block;
-
-  object-fit: cover;
-
-  border-radius: 32px;
-}
-
-.peer h3 {
-  margin: 13px 5px 0;
-
-  color: #28616a;
-
-  font-size: 15px;
-
-  line-height: 1.4;
-}
-
-
-/* ==========================================
-   FRIENDLIER PEERS
-========================================== */
-
-.peers-friendly {
-  background: #fffdf9;
-}
-
 .peer-heading {
   max-width: 1100px;
 
@@ -812,31 +737,48 @@ section {
   line-height: 1.55;
 }
 
-.peers-friendly .peer-grid {
+.peer-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
   gap:
     38px
     28px;
 }
 
-.peers-friendly .peer img {
+.peer {
+  background: transparent;
+
+  text-align: left;
+}
+
+.peer img {
+  width: 100%;
   height: 250px;
+
+  display: block;
+
+  object-fit: cover;
 
   border-radius:
     30px 30px 30px 9px;
 }
 
-.peers-friendly .peer:nth-child(3n + 2) {
+.peer:nth-child(3n + 2) {
   transform: translateY(18px);
 }
 
-.peers-friendly .peer h3 {
-  margin-top: 12px;
+.peer h3 {
+  margin: 12px 5px 0;
 
   color: #35636c;
 
   font-size: 14px;
-
   font-weight: 600;
+
+  line-height: 1.4;
 }
 
 
@@ -927,7 +869,6 @@ section {
   min-width: 50px;
 
   display: flex;
-
   align-items: center;
   justify-content: center;
 
@@ -1172,12 +1113,12 @@ footer p:last-child {
     max-width: 760px;
   }
 
-  .hero-visual img {
-    max-width: 480px;
-  }
-
   .friendly-hero-image {
     min-height: auto;
+  }
+
+  .friendly-hero-image img {
+    max-width: 480px;
   }
 
   .hero-soft-shape {
@@ -1233,7 +1174,7 @@ footer p:last-child {
       repeat(2, minmax(0, 1fr));
   }
 
-  .peers-friendly .peer:nth-child(3n + 2) {
+  .peer:nth-child(3n + 2) {
     transform: none;
   }
 
@@ -1315,15 +1256,11 @@ footer p:last-child {
   }
 
   .friendly-hero-image img {
+    max-width: 100%;
+
     transform:
       rotate(1deg)
       translate(0, 5px);
-  }
-
-  .hero-visual img {
-    max-width: 100%;
-
-    border-radius: 24px;
   }
 
   .values {
@@ -1363,7 +1300,7 @@ footer p:last-child {
     grid-template-columns: 1fr;
   }
 
-  .peers-friendly .peer img {
+  .peer img {
     height: 270px;
   }
 
@@ -1420,7 +1357,7 @@ footer p:last-child {
     min-width: 65px;
   }
 
-  .peers-friendly .peer img {
+  .peer img {
     height: 220px;
   }
 }
