@@ -19,7 +19,13 @@ html {
 }
 
 body {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Arial,
+    Helvetica,
+    sans-serif;
 
   color: #324a55;
   background: #fffdf9;
@@ -99,7 +105,7 @@ section {
   text-decoration: none;
 
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 650;
 
   white-space: nowrap;
 
@@ -242,19 +248,26 @@ section {
   z-index: 2;
 }
 
+
+/* Casual handwriting - closest to screenshot 4 */
+
 .hero h1 {
   margin-bottom: 24px;
 
   color: #16727c;
 
-  font-family: "Caveat", cursive;
+  font-family:
+    "Kalam",
+    cursive;
 
   font-size:
-    clamp(50px, 5vw, 74px);
+    clamp(43px, 4.5vw, 65px);
 
-  font-weight: 600;
+  font-weight: 700;
 
-  line-height: 0.98;
+  line-height: 1.07;
+
+  letter-spacing: -0.8px;
 }
 
 .hero-text {
@@ -306,12 +319,14 @@ section {
 .hero-note p {
   color: #477078;
 
-  font-family: "Caveat", cursive;
+  font-family:
+    "Kalam",
+    cursive;
 
-  font-size: 21px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
 
-  line-height: 1.1;
+  line-height: 1.35;
 }
 
 .hero-visual {
@@ -464,7 +479,7 @@ section {
 
   line-height: 1.2;
 
-  letter-spacing: -0.6px;
+  letter-spacing: -0.5px;
 }
 
 .section-intro {
@@ -524,7 +539,7 @@ section {
 .gentle-note span {
   display: block;
 
-  margin-bottom: 7px;
+  margin-bottom: 10px;
 
   color: #d7ab43;
 
@@ -534,12 +549,7 @@ section {
 .gentle-note p {
   color: #577078;
 
-  font-family: "Caveat", cursive;
-
-  font-size: 21px;
-  font-weight: 500;
-
-  line-height: 1.2;
+  font-size: 15px;
 }
 
 .professional-note {
@@ -625,24 +635,29 @@ section {
 .bubble-heart {
   display: block;
 
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 
   color: #d0a84d;
 
   font-size: 26px;
 }
 
+
+/* Casual handwritten quote style */
+
 .help-bubble h3 {
   margin-bottom: 10px;
 
   color: #27636c;
 
-  font-family: "Caveat", cursive;
+  font-family:
+    "Kalam",
+    cursive;
 
-  font-size: 26px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 700;
 
-  line-height: 1.1;
+  line-height: 1.25;
 }
 
 .help-bubble p {
@@ -688,7 +703,7 @@ section {
 
   line-height: 1.2;
 
-  letter-spacing: -0.6px;
+  letter-spacing: -0.5px;
 }
 
 .peer-intro-note {
@@ -808,18 +823,20 @@ section {
 
   font-size: 14px;
 
-  margin-bottom: 2px;
+  margin-bottom: 3px;
 }
 
 .human-message strong {
   color: #176f78;
 
-  font-family: "Caveat", cursive;
+  font-family:
+    "Kalam",
+    cursive;
 
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 700;
 
-  line-height: 1.1;
+  line-height: 1.25;
 }
 
 
@@ -857,7 +874,6 @@ section {
   min-width: 50px;
 
   display: flex;
-
   align-items: center;
   justify-content: center;
 
@@ -897,6 +913,8 @@ section {
 }
 
 .reachout-steps {
+  position: relative;
+
   max-width: 1050px;
 
   display: grid;
@@ -908,6 +926,8 @@ section {
 }
 
 .reachout-steps article {
+  position: relative;
+
   padding: 28px 26px;
 
   background: #eef8f5;
@@ -933,7 +953,9 @@ section {
 
   color: #d0a84d;
 
-  font-family: Georgia, serif;
+  font-family:
+    Georgia,
+    serif;
 
   font-size: 25px;
 }
@@ -990,14 +1012,16 @@ section {
 
   color: #176f78;
 
-  font-family: "Caveat", cursive;
+  font-family:
+    "Kalam",
+    cursive;
 
   font-size:
-    clamp(44px, 4vw, 58px);
+    clamp(36px, 3.5vw, 50px);
 
-  font-weight: 600;
+  font-weight: 700;
 
-  line-height: 1;
+  line-height: 1.1;
 }
 
 .contact > div:first-child > p:not(.eyebrow) {
@@ -1221,7 +1245,7 @@ footer p:last-child {
   }
 
   .hero h1 {
-    font-size: 52px;
+    font-size: 42px;
   }
 
   .hero-text {
@@ -1235,7 +1259,7 @@ footer p:last-child {
   }
 
   .hero-note p {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .hero-soft-shape {
@@ -1281,7 +1305,7 @@ footer p:last-child {
   }
 
   .help-bubble h3 {
-    font-size: 25px;
+    font-size: 21px;
   }
 
   .peer-heading {
@@ -1319,7 +1343,7 @@ footer p:last-child {
   }
 
   .human-message strong {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .reachout-process {
@@ -1331,7 +1355,7 @@ footer p:last-child {
   }
 
   .contact h2 {
-    font-size: 46px;
+    font-size: 38px;
   }
 }
 
@@ -1351,7 +1375,7 @@ footer p:last-child {
   }
 
   .hero h1 {
-    font-size: 46px;
+    font-size: 38px;
   }
 
   .value {
