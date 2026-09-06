@@ -4,9 +4,7 @@
 ========================================== */
 
 
-/* ==========================================
-   RESET
-========================================== */
+/* RESET */
 
 * {
   box-sizing: border-box;
@@ -29,7 +27,6 @@ body {
 
   color: #324a55;
   background: #fffdf9;
-
   line-height: 1.65;
 }
 
@@ -42,24 +39,17 @@ section {
 }
 
 
-/* ==========================================
-   HEADER
-========================================== */
+/* HEADER */
 
 .site-header {
   width: 100%;
-
   padding: 6px 6% 12px;
-
   background: #ffffff;
-
-  border-bottom:
-    1px solid rgba(41, 83, 91, 0.1);
+  border-bottom: 1px solid rgba(41, 83, 91, 0.1);
 }
 
 .header-logo {
   width: 100%;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,48 +57,36 @@ section {
 
 .header-logo a {
   display: block;
-
   line-height: 0;
 }
 
 .maps-logo {
   display: block;
-
   width: 410px;
   max-width: 82vw;
-
   height: auto;
 }
 
 .header-links {
   display: flex;
-
   align-items: center;
   justify-content: center;
-
   gap: 24px;
-
   margin-top: -78px;
 }
 
 .header-links nav {
   display: flex;
-
   align-items: center;
-
   gap: 34px;
 }
 
 .header-links nav a {
   color: #344a56;
-
   text-decoration: none;
-
   font-size: 14px;
   font-weight: 650;
-
   white-space: nowrap;
-
   transition: color 0.2s ease;
 }
 
@@ -118,19 +96,13 @@ section {
 
 .header-button {
   padding: 10px 18px;
-
   background: #1c6070;
   color: #ffffff;
-
   text-decoration: none;
-
   border-radius: 999px;
-
   font-size: 13px;
   font-weight: 700;
-
   white-space: nowrap;
-
   transition:
     background 0.2s ease,
     transform 0.2s ease;
@@ -145,29 +117,19 @@ section {
 }
 
 
-/* ==========================================
-   BUTTONS
-========================================== */
+/* BUTTONS */
 
 .primary-button {
   display: inline-flex;
-
   align-items: center;
-
   gap: 10px;
-
   padding: 12px 20px;
-
   background: #11858b;
   color: #ffffff;
-
   text-decoration: none;
-
   border-radius: 999px;
-
   font-size: 14px;
   font-weight: 700;
-
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease,
@@ -176,11 +138,8 @@ section {
 
 .primary-button:hover {
   background: #0b7177;
-
   transform: translateY(-1px);
-
-  box-shadow:
-    0 8px 20px rgba(17, 133, 139, 0.16);
+  box-shadow: 0 8px 20px rgba(17, 133, 139, 0.16);
 }
 
 .primary-button span {
@@ -188,31 +147,22 @@ section {
 }
 
 
-/* ==========================================
-   SMALL SECTION LABELS
-========================================== */
+/* EYEBROW */
 
 .eyebrow {
   margin-bottom: 10px;
-
   color: #12848a;
-
   font-size: 11px;
   font-weight: 800;
-
   letter-spacing: 2.2px;
 }
 
 
-/* ==========================================
-   HERO
-========================================== */
+/* HERO */
 
 .hero {
   max-width: 1450px;
-
   margin: 0 auto;
-
   padding: 55px 6% 60px;
 
   display: grid;
@@ -222,7 +172,6 @@ section {
     minmax(320px, 0.88fr);
 
   align-items: center;
-
   gap: 65px;
 
   background:
@@ -236,55 +185,38 @@ section {
 
 .hero-friendly {
   position: relative;
-
   overflow: hidden;
 }
 
 .hero-copy {
   position: relative;
-
   max-width: 700px;
-
   z-index: 2;
 }
-
-
-/* Casual handwriting - closest to screenshot 4 */
 
 .hero h1 {
   margin-bottom: 24px;
 
   color: #16727c;
 
-  font-family:
-    "Kalam",
-    cursive;
-
-  font-size:
-    clamp(43px, 4.5vw, 65px);
-
+  font-family: "Kalam", cursive;
+  font-size: clamp(44px, 4.6vw, 66px);
   font-weight: 700;
 
-  line-height: 1.07;
-
+  line-height: 1.08;
   letter-spacing: -0.8px;
 }
 
 .hero-text {
   max-width: 620px;
-
   margin-bottom: 10px;
-
   color: #4f626c;
-
   font-size: 17px;
 }
 
 .hero-text.secondary {
   margin-bottom: 18px;
-
   color: #6a787f;
-
   font-size: 15px;
 }
 
@@ -293,36 +225,26 @@ section {
   max-width: 520px;
 
   margin: 6px 0 24px;
-
   padding: 12px 18px;
 
   display: flex;
-
   align-items: center;
-
   gap: 10px;
 
   background: #eef8f5;
-
-  border-radius:
-    6px 22px 22px 22px;
+  border-radius: 6px 22px 22px 22px;
 }
 
 .hero-note span {
   color: #d2a53f;
-
   font-size: 22px;
-
   flex-shrink: 0;
 }
 
 .hero-note p {
   color: #477078;
 
-  font-family:
-    "Kalam",
-    cursive;
-
+  font-family: "Kalam", cursive;
   font-size: 16px;
   font-weight: 400;
 
@@ -331,14 +253,12 @@ section {
 
 .hero-visual {
   display: flex;
-
   justify-content: center;
   align-items: center;
 }
 
 .friendly-hero-image {
   position: relative;
-
   min-height: 430px;
 }
 
@@ -378,20 +298,15 @@ section {
   border-radius:
     26px 32px 24px 34px;
 
-  box-shadow:
-    0 18px 45px rgba(38, 72, 78, 0.09);
+  box-shadow: 0 18px 45px rgba(38, 72, 78, 0.09);
 }
 
 
-/* ==========================================
-   VALUES
-========================================== */
+/* VALUES */
 
 .values {
   max-width: 1280px;
-
   margin: 0 auto 30px;
-
   padding: 28px 6%;
 
   display: grid;
@@ -404,34 +319,28 @@ section {
 
 .value {
   display: flex;
-
   align-items: center;
 
   gap: 18px;
-
   padding: 18px;
 
   background: #fff9ef;
-
   border-radius: 26px;
 }
 
 .value:nth-child(2) {
   transform: translateY(14px);
-
   background: #eff8f5;
 }
 
 .value img {
   width: 82px;
   height: 82px;
-
   min-width: 82px;
 
   object-fit: cover;
 
   border-radius: 50%;
-
   border: 4px solid #ffffff;
 }
 
@@ -446,16 +355,12 @@ section {
 
 .value p {
   color: #66747a;
-
   font-size: 13px;
-
   line-height: 1.5;
 }
 
 
-/* ==========================================
-   GENERAL CONTENT
-========================================== */
+/* GENERAL CONTENT */
 
 .content-section {
   padding: 80px 8%;
@@ -463,7 +368,6 @@ section {
 
 .section-heading {
   max-width: 760px;
-
   margin-bottom: 35px;
 }
 
@@ -472,26 +376,20 @@ section {
 
   color: #176f78;
 
-  font-size:
-    clamp(30px, 3vw, 42px);
-
+  font-size: clamp(30px, 3vw, 42px);
   font-weight: 700;
 
   line-height: 1.2;
-
   letter-spacing: -0.5px;
 }
 
 .section-intro {
   color: #64737a;
-
   font-size: 15px;
 }
 
 
-/* ==========================================
-   ABOUT
-========================================== */
+/* ABOUT */
 
 .about {
   background: #ffffff;
@@ -507,7 +405,6 @@ section {
     minmax(260px, 0.5fr);
 
   gap: 42px;
-
   align-items: start;
 }
 
@@ -517,9 +414,7 @@ section {
 
 .about-text p {
   margin-bottom: 18px;
-
   color: #586a72;
-
   font-size: 16px;
 }
 
@@ -542,13 +437,11 @@ section {
   margin-bottom: 10px;
 
   color: #d7ab43;
-
   font-size: 38px;
 }
 
 .gentle-note p {
   color: #577078;
-
   font-size: 15px;
 }
 
@@ -556,21 +449,16 @@ section {
   max-width: 850px;
 
   margin-top: 35px;
-
   padding-top: 18px;
 
-  border-top:
-    1px solid rgba(38, 78, 86, 0.1);
+  border-top: 1px solid rgba(38, 78, 86, 0.1);
 
   color: #839096;
-
   font-size: 13px;
 }
 
 
-/* ==========================================
-   HOW WE CAN HELP
-========================================== */
+/* HELP */
 
 .help-friendly {
   background:
@@ -590,7 +478,6 @@ section {
     repeat(3, minmax(0, 1fr));
 
   gap: 22px;
-
   align-items: start;
 }
 
@@ -634,26 +521,17 @@ section {
 
 .bubble-heart {
   display: block;
-
   margin-bottom: 12px;
-
   color: #d0a84d;
-
   font-size: 26px;
 }
-
-
-/* Casual handwritten quote style */
 
 .help-bubble h3 {
   margin-bottom: 10px;
 
   color: #27636c;
 
-  font-family:
-    "Kalam",
-    cursive;
-
+  font-family: "Kalam", cursive;
   font-size: 22px;
   font-weight: 700;
 
@@ -662,16 +540,12 @@ section {
 
 .help-bubble p {
   color: #65767c;
-
   font-size: 14px;
-
   line-height: 1.6;
 }
 
 
-/* ==========================================
-   PEERS
-========================================== */
+/* PEERS */
 
 .peers {
   background: #fffdf9;
@@ -679,7 +553,6 @@ section {
 
 .peer-heading {
   max-width: 1100px;
-
   margin-bottom: 42px;
 
   display: grid;
@@ -689,20 +562,16 @@ section {
     minmax(320px, 0.8fr);
 
   gap: 50px;
-
   align-items: end;
 }
 
 .peer-heading h2 {
   color: #176f78;
 
-  font-size:
-    clamp(32px, 3vw, 44px);
-
+  font-size: clamp(32px, 3vw, 44px);
   font-weight: 700;
 
   line-height: 1.2;
-
   letter-spacing: -0.5px;
 }
 
@@ -714,7 +583,6 @@ section {
   display: flex;
 
   gap: 14px;
-
   align-items: flex-start;
 
   background: #eef8f5;
@@ -725,17 +593,13 @@ section {
 
 .peer-intro-note span {
   color: #d1a33c;
-
   font-size: 27px;
-
   flex-shrink: 0;
 }
 
 .peer-intro-note p {
   color: #5d7279;
-
   font-size: 14px;
-
   line-height: 1.55;
 }
 
@@ -752,7 +616,6 @@ section {
 
 .peer {
   background: transparent;
-
   text-align: left;
 }
 
@@ -787,21 +650,17 @@ section {
 }
 
 
-/* ==========================================
-   HUMAN MESSAGE
-========================================== */
+/* HUMAN MESSAGE */
 
 .human-message {
   max-width: 900px;
 
   margin: 20px auto 55px;
-
   padding: 26px 32px;
 
   display: flex;
 
   gap: 22px;
-
   align-items: center;
 
   background: #f7ead4;
@@ -812,27 +671,20 @@ section {
 
 .human-message > span {
   color: #ce9b32;
-
   font-size: 40px;
-
   flex-shrink: 0;
 }
 
 .human-message p {
   color: #687176;
-
   font-size: 14px;
-
   margin-bottom: 3px;
 }
 
 .human-message strong {
   color: #176f78;
 
-  font-family:
-    "Kalam",
-    cursive;
-
+  font-family: "Kalam", cursive;
   font-size: 22px;
   font-weight: 700;
 
@@ -840,9 +692,7 @@ section {
 }
 
 
-/* ==========================================
-   RESOURCES
-========================================== */
+/* RESOURCES */
 
 .resources {
   background: #f4faf8;
@@ -861,16 +711,13 @@ section {
 
 .resource-list article {
   display: flex;
-
   gap: 20px;
-
   padding: 10px 0;
 }
 
 .resource-symbol {
   width: 50px;
   height: 50px;
-
   min-width: 50px;
 
   display: flex;
@@ -880,7 +727,6 @@ section {
   border-radius: 50%;
 
   background: #ffffff;
-
   color: #16828a;
 
   font-size: 21px;
@@ -897,18 +743,14 @@ section {
 
 .resource-list p {
   color: #66767c;
-
   font-size: 14px;
 }
 
 
-/* ==========================================
-   REACH OUT PROCESS
-========================================== */
+/* REACH OUT PROCESS */
 
 .reachout-process {
   padding: 80px 8%;
-
   background: #fffdf9;
 }
 
@@ -938,7 +780,6 @@ section {
 
 .reachout-steps article:nth-child(2) {
   background: #fff6e9;
-
   transform: translateY(12px);
 }
 
@@ -971,16 +812,12 @@ section {
 
 .reachout-steps p {
   color: #68777d;
-
   font-size: 14px;
-
   line-height: 1.55;
 }
 
 
-/* ==========================================
-   CONTACT
-========================================== */
+/* CONTACT */
 
 .contact {
   padding: 80px 8%;
@@ -1012,13 +849,8 @@ section {
 
   color: #176f78;
 
-  font-family:
-    "Kalam",
-    cursive;
-
-  font-size:
-    clamp(36px, 3.5vw, 50px);
-
+  font-family: "Kalam", cursive;
+  font-size: clamp(36px, 3.5vw, 50px);
   font-weight: 700;
 
   line-height: 1.1;
@@ -1026,7 +858,6 @@ section {
 
 .contact > div:first-child > p:not(.eyebrow) {
   margin-bottom: 25px;
-
   color: #63747b;
 }
 
@@ -1051,14 +882,11 @@ section {
 
 .emergency p {
   color: #748188;
-
   font-size: 13px;
 }
 
 
-/* ==========================================
-   FOOTER
-========================================== */
+/* FOOTER */
 
 footer {
   padding: 25px;
@@ -1066,7 +894,6 @@ footer {
   text-align: center;
 
   background: #286f75;
-
   color: #ffffff;
 }
 
@@ -1076,16 +903,12 @@ footer p:first-child {
 
 footer p:last-child {
   margin-top: 3px;
-
   font-size: 11px;
-
   opacity: 0.7;
 }
 
 
-/* ==========================================
-   TABLET
-========================================== */
+/* TABLET */
 
 @media (max-width: 950px) {
 
@@ -1107,13 +930,11 @@ footer p:last-child {
 
   .header-button {
     padding: 9px 14px;
-
     font-size: 12px;
   }
 
   .hero {
     grid-template-columns: 1fr;
-
     gap: 30px;
   }
 
@@ -1136,7 +957,6 @@ footer p:last-child {
 
   .values {
     grid-template-columns: 1fr;
-
     max-width: 750px;
   }
 
@@ -1146,19 +966,16 @@ footer p:last-child {
 
   .about-layout {
     grid-template-columns: 1fr;
-
     gap: 30px;
   }
 
   .gentle-note {
     max-width: 600px;
-
     transform: none;
   }
 
   .help-bubbles {
     grid-template-columns: 1fr;
-
     max-width: 700px;
   }
 
@@ -1169,7 +986,6 @@ footer p:last-child {
 
   .peer-heading {
     grid-template-columns: 1fr;
-
     gap: 20px;
   }
 
@@ -1192,7 +1008,6 @@ footer p:last-child {
 
   .reachout-steps {
     grid-template-columns: 1fr;
-
     max-width: 700px;
   }
 
@@ -1202,15 +1017,12 @@ footer p:last-child {
 
   .contact {
     grid-template-columns: 1fr;
-
     gap: 35px;
   }
 }
 
 
-/* ==========================================
-   MOBILE
-========================================== */
+/* MOBILE */
 
 @media (max-width: 650px) {
 
@@ -1232,7 +1044,6 @@ footer p:last-child {
 
   .header-button {
     margin: 0 auto;
-
     padding: 9px 16px;
   }
 
@@ -1254,7 +1065,6 @@ footer p:last-child {
 
   .hero-note {
     width: 100%;
-
     padding: 11px 15px;
   }
 
@@ -1288,7 +1098,6 @@ footer p:last-child {
   .value img {
     width: 72px;
     height: 72px;
-
     min-width: 72px;
   }
 
@@ -1360,9 +1169,7 @@ footer p:last-child {
 }
 
 
-/* ==========================================
-   VERY SMALL PHONE
-========================================== */
+/* VERY SMALL PHONE */
 
 @media (max-width: 400px) {
 
@@ -1385,7 +1192,6 @@ footer p:last-child {
   .value img {
     width: 65px;
     height: 65px;
-
     min-width: 65px;
   }
 
