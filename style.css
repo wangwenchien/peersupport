@@ -27,6 +27,7 @@ body {
 
   color: #324a55;
   background: #fffdf9;
+
   line-height: 1.65;
 }
 
@@ -43,12 +44,12 @@ section {
 
 .site-header {
   width: 100%;
+
   padding: 6px 6% 12px;
 
   background: #ffffff;
 
-  border-bottom:
-    1px solid rgba(41, 83, 91, 0.1);
+  border-bottom: 1px solid rgba(41, 83, 91, 0.1);
 }
 
 .header-logo {
@@ -61,6 +62,7 @@ section {
 
 .header-logo a {
   display: block;
+
   line-height: 0;
 }
 
@@ -75,6 +77,7 @@ section {
 
 .header-links {
   display: flex;
+
   align-items: center;
   justify-content: center;
 
@@ -85,6 +88,7 @@ section {
 
 .header-links nav {
   display: flex;
+
   align-items: center;
 
   gap: 34px;
@@ -131,15 +135,12 @@ section {
   background: #11858b;
 }
 
-.header-button:active {
-  transform: translateY(1px);
-}
 
-
-/* BUTTONS */
+/* BUTTON */
 
 .primary-button {
   display: inline-flex;
+
   align-items: center;
 
   gap: 10px;
@@ -197,7 +198,7 @@ section {
 
   margin: 0 auto;
 
-  padding: 55px 6% 60px;
+  padding: 55px 6% 65px;
 
   display: grid;
 
@@ -216,11 +217,6 @@ section {
       transparent 30%
     ),
     #fffdf9;
-}
-
-.hero-friendly {
-  position: relative;
-  overflow: hidden;
 }
 
 .hero-copy {
@@ -275,6 +271,7 @@ section {
   padding: 12px 18px;
 
   display: flex;
+
   align-items: center;
 
   gap: 10px;
@@ -299,21 +296,19 @@ section {
   font-family: "Kalam", cursive;
 
   font-size: 16px;
-  font-weight: 400;
 
   line-height: 1.35;
 }
 
 .hero-visual {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.friendly-hero-image {
   position: relative;
 
   min-height: 430px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-soft-shape {
@@ -329,17 +324,13 @@ section {
     / 42% 46% 54% 58%;
 
   transform: rotate(-5deg);
-
-  z-index: 0;
 }
 
-.friendly-hero-image img {
+.hero-visual img {
   position: relative;
 
   width: 100%;
   max-width: 470px;
-
-  height: auto;
 
   display: block;
 
@@ -362,19 +353,23 @@ section {
 ========================================== */
 
 .values-story {
-  max-width: 1320px;
+  width: 100%;
+
+  max-width: 1280px;
 
   margin: 0 auto;
 
-  padding: 35px 6% 80px;
+  padding: 30px 6% 80px;
 }
 
 .value-story {
+  width: 100%;
+
   display: grid;
 
   grid-template-columns:
     minmax(0, 1fr)
-    minmax(340px, 0.9fr);
+    minmax(300px, 430px);
 
   align-items: center;
 
@@ -382,17 +377,13 @@ section {
 
   margin-bottom: 34px;
 
-  padding: 46px 48px;
+  padding: 46px 50px;
+
+  background: #fff8ec;
 
   border-radius: 36px;
-}
 
-.value-story:last-child {
-  margin-bottom: 0;
-}
-
-.value-story:nth-child(1) {
-  background: #fff8ec;
+  overflow: hidden;
 }
 
 .value-story:nth-child(2) {
@@ -400,16 +391,22 @@ section {
 }
 
 .value-story:nth-child(3) {
-  background: #f8fbfa;
+  background: #f9fbf9;
+}
+
+.value-story:last-child {
+  margin-bottom: 0;
 }
 
 .value-story-reverse {
   grid-template-columns:
-    minmax(340px, 0.9fr)
+    minmax(300px, 430px)
     minmax(0, 1fr);
 }
 
 .value-story-text {
+  width: 100%;
+
   max-width: 560px;
 }
 
@@ -418,12 +415,12 @@ section {
 }
 
 .value-story-text h2 {
-  margin-bottom: 14px;
+  margin-bottom: 15px;
 
   color: #176f78;
 
   font-size:
-    clamp(30px, 2.8vw, 42px);
+    clamp(29px, 2.7vw, 40px);
 
   font-weight: 700;
 
@@ -433,6 +430,8 @@ section {
 }
 
 .value-story-text p:not(.eyebrow) {
+  margin: 0;
+
   max-width: 520px;
 
   color: #62747b;
@@ -443,29 +442,34 @@ section {
 }
 
 .value-story-image {
+  width: 100%;
+
   display: flex;
+
   align-items: center;
   justify-content: center;
 }
 
 .value-story-image img {
   width: 100%;
-  max-width: 455px;
-  height: 285px;
+
+  max-width: 430px;
+
+  height: 270px;
 
   display: block;
 
   object-fit: cover;
 
   border-radius:
-    30px 30px 30px 10px;
+    28px 28px 28px 9px;
 
   box-shadow:
-    0 14px 34px rgba(38, 72, 78, 0.08);
+    0 14px 32px rgba(38, 72, 78, 0.1);
 }
 
 
-/* GENERAL CONTENT */
+/* CONTENT */
 
 .content-section {
   padding: 80px 8%;
@@ -576,9 +580,9 @@ section {
 }
 
 
-/* HOW WE CAN HELP */
+/* HELP */
 
-.help-friendly {
+.help {
   background:
     linear-gradient(
       135deg,
@@ -630,10 +634,6 @@ section {
   background: #fff8ec;
 }
 
-.bubble-two {
-  background: #ffffff;
-}
-
 .bubble-three {
   background: #eaf7f3;
 }
@@ -656,7 +656,6 @@ section {
   font-family: "Kalam", cursive;
 
   font-size: 22px;
-  font-weight: 700;
 
   line-height: 1.25;
 }
@@ -701,8 +700,6 @@ section {
   font-weight: 700;
 
   line-height: 1.2;
-
-  letter-spacing: -0.5px;
 }
 
 .peer-intro-note {
@@ -726,8 +723,6 @@ section {
   color: #d1a33c;
 
   font-size: 27px;
-
-  flex-shrink: 0;
 }
 
 .peer-intro-note p {
@@ -744,15 +739,7 @@ section {
   grid-template-columns:
     repeat(3, minmax(0, 1fr));
 
-  gap:
-    40px
-    28px;
-}
-
-.peer {
-  background: transparent;
-
-  text-align: left;
+  gap: 40px 28px;
 }
 
 .peer img {
@@ -780,10 +767,7 @@ section {
   color: #516a72;
 
   font-size: 13.5px;
-
   font-weight: 600;
-
-  line-height: 1.45;
 }
 
 
@@ -812,16 +796,12 @@ section {
   color: #ce9b32;
 
   font-size: 40px;
-
-  flex-shrink: 0;
 }
 
 .human-message p {
   color: #687176;
 
   font-size: 14px;
-
-  margin-bottom: 3px;
 }
 
 .human-message strong {
@@ -830,10 +810,6 @@ section {
   font-family: "Kalam", cursive;
 
   font-size: 22px;
-
-  font-weight: 700;
-
-  line-height: 1.25;
 }
 
 
@@ -869,6 +845,7 @@ section {
   min-width: 50px;
 
   display: flex;
+
   align-items: center;
   justify-content: center;
 
@@ -885,9 +862,6 @@ section {
   margin-bottom: 6px;
 
   color: #2f515b;
-
-  font-size: 17px;
-  font-weight: 700;
 }
 
 .resource-list p {
@@ -897,7 +871,7 @@ section {
 }
 
 
-/* REACH OUT PROCESS */
+/* REACH OUT */
 
 .reachout-process {
   padding: 80px 8%;
@@ -942,9 +916,7 @@ section {
 
   color: #d0a84d;
 
-  font-family:
-    Georgia,
-    serif;
+  font-family: Georgia, serif;
 
   font-size: 25px;
 }
@@ -953,18 +925,12 @@ section {
   margin-bottom: 7px;
 
   color: #28616a;
-
-  font-size: 17px;
-
-  font-weight: 700;
 }
 
 .reachout-steps p {
   color: #68777d;
 
   font-size: 14px;
-
-  line-height: 1.55;
 }
 
 
@@ -1004,10 +970,6 @@ section {
 
   font-size:
     clamp(36px, 3.5vw, 50px);
-
-  font-weight: 700;
-
-  line-height: 1.1;
 }
 
 .contact > div:first-child > p:not(.eyebrow) {
@@ -1032,8 +994,6 @@ section {
   color: #405963;
 
   font-size: 15px;
-
-  font-weight: 700;
 }
 
 .emergency p {
@@ -1088,36 +1048,20 @@ footer p:last-child {
     font-size: 12px;
   }
 
-  .header-button {
-    padding: 9px 14px;
-    font-size: 12px;
-  }
-
   .hero {
     grid-template-columns: 1fr;
 
     gap: 30px;
   }
 
-  .hero-copy {
-    max-width: 760px;
-  }
-
-  .friendly-hero-image {
+  .hero-visual {
     min-height: auto;
   }
 
-  .friendly-hero-image img {
-    max-width: 480px;
-  }
-
-  .hero-soft-shape {
-    width: 390px;
-    height: 330px;
-  }
-
   .values-story {
-    padding: 30px 7% 65px;
+    padding:
+      30px 7%
+      65px;
   }
 
   .value-story,
@@ -1129,24 +1073,22 @@ footer p:last-child {
     padding: 36px;
   }
 
-  .value-story-reverse .value-story-image {
-    order: 2;
-  }
-
   .value-story-reverse .value-story-text {
     order: 1;
+  }
+
+  .value-story-reverse .value-story-image {
+    order: 2;
   }
 
   .value-story-image img {
     max-width: 100%;
 
-    height: 320px;
+    height: 310px;
   }
 
   .about-layout {
     grid-template-columns: 1fr;
-
-    gap: 30px;
   }
 
   .gentle-note {
@@ -1157,8 +1099,6 @@ footer p:last-child {
 
   .help-bubbles {
     grid-template-columns: 1fr;
-
-    max-width: 700px;
   }
 
   .help-bubble:nth-child(2),
@@ -1168,12 +1108,6 @@ footer p:last-child {
 
   .peer-heading {
     grid-template-columns: 1fr;
-
-    gap: 20px;
-  }
-
-  .peer-intro-note {
-    max-width: 600px;
   }
 
   .peer-grid {
@@ -1191,8 +1125,6 @@ footer p:last-child {
 
   .reachout-steps {
     grid-template-columns: 1fr;
-
-    max-width: 700px;
   }
 
   .reachout-steps article:nth-child(2) {
@@ -1201,8 +1133,6 @@ footer p:last-child {
 
   .contact {
     grid-template-columns: 1fr;
-
-    gap: 35px;
   }
 }
 
@@ -1229,43 +1159,24 @@ footer p:last-child {
 
   .header-button {
     margin: 0 auto;
-
-    padding: 9px 16px;
   }
 
   .hero {
     padding:
       45px 7%
       50px;
-
-    gap: 28px;
   }
 
   .hero h1 {
     font-size: 42px;
   }
 
-  .hero-text {
-    font-size: 15px;
-  }
-
-  .hero-note {
-    width: 100%;
-
-    padding: 11px 15px;
-  }
-
-  .hero-note p {
-    font-size: 15px;
-  }
-
   .hero-soft-shape {
     width: 88vw;
-
     height: 75vw;
   }
 
-  .friendly-hero-image img {
+  .hero-visual img {
     max-width: 100%;
 
     transform:
@@ -1275,17 +1186,17 @@ footer p:last-child {
 
   .values-story {
     padding:
-      24px 7%
+      25px 7%
       50px;
   }
 
   .value-story,
   .value-story-reverse {
-    padding: 26px 22px;
-
     gap: 22px;
 
     margin-bottom: 24px;
+
+    padding: 26px 22px;
 
     border-radius: 28px;
   }
@@ -1309,30 +1220,6 @@ footer p:last-child {
     padding: 65px 7%;
   }
 
-  .section-heading h2 {
-    font-size: 30px;
-  }
-
-  .help-bubble {
-    padding: 23px 21px;
-  }
-
-  .help-bubble h3 {
-    font-size: 21px;
-  }
-
-  .peer-heading {
-    margin-bottom: 30px;
-  }
-
-  .peer-heading h2 {
-    font-size: 31px;
-  }
-
-  .peer-intro-note {
-    padding: 17px 18px;
-  }
-
   .peer-grid {
     grid-template-columns: 1fr;
   }
@@ -1341,22 +1228,12 @@ footer p:last-child {
     height: 270px;
   }
 
-  .peer h3 {
-    font-size: 13.5px;
-  }
-
   .human-message {
     margin:
       0 7%
       35px;
 
     padding: 24px;
-
-    align-items: flex-start;
-  }
-
-  .human-message strong {
-    font-size: 20px;
   }
 
   .reachout-process {
@@ -1365,10 +1242,6 @@ footer p:last-child {
 
   .contact {
     padding: 65px 7%;
-  }
-
-  .contact h2 {
-    font-size: 38px;
   }
 }
 
